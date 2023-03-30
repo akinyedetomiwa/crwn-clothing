@@ -1,6 +1,6 @@
-import React from "react";
-import "./directory.styles.scss";
-import MenuItem from "../menu-item/menu-item.component";
+import React from 'react';
+import './directory.styles.scss';
+import MenuItem from '../menu-item/menu-item.component';
 class Directory extends React.Component {
   constructor() {
     super();
@@ -8,36 +8,36 @@ class Directory extends React.Component {
     this.state = {
       sections: [
         {
-          title: "Hats",
-          imageUrl: "https://i.ibb.co/cvpntL1/hats.png",
+          title: 'Hats',
+          imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
           id: 1,
-          linkUrl: "hats",
+          linkUrl: 'hats',
         },
         {
-          title: "Jackets",
-          imageUrl: "https://i.ibb.co/px2tCc3/jackets.png",
+          title: 'Jackets',
+          imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
           id: 2,
-          linkUrl: "",
+          linkUrl: '',
         },
         {
-          title: "Sneakers",
-          imageUrl: "https://i.ibb.co/0jqHpnp/sneakers.png",
+          title: 'Sneakers',
+          imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
           id: 3,
-          linkUrl: "",
+          linkUrl: '',
         },
         {
-          title: "Womens",
-          imageUrl: "https://i.ibb.co/GCCdy8t/womens.png",
-          size: "large",
+          title: 'Womens',
+          imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+          size: 'large',
           id: 4,
-          linkUrl: "",
+          linkUrl: '',
         },
         {
-          title: "Mens",
-          imageUrl: "https://i.ibb.co/R70vBrQ/men.png",
-          size: "large",
+          title: 'Mens',
+          imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+          size: 'large',
           id: 5,
-          linkUrl: "",
+          linkUrl: '',
         },
       ],
     };
@@ -53,5 +53,4 @@ class Directory extends React.Component {
     );
   }
 }
-
 export default Directory;
